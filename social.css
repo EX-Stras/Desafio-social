@@ -10,7 +10,7 @@ body {
 img.iphone {
     position: relative;
     display: inline;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%);
     width: 325px;
@@ -18,7 +18,7 @@ img.iphone {
 
 iframe {
     position: absolute;
-    top: 20%;
+    top: 16.5%;
     left: 50%;
     transform: translate(-49.9%);
     height: 500px;
