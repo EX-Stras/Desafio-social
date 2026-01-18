@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background: white url(pacote-d013/imagens/fundo-madeira.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+img.iphone {
+    position: relative;
+    display: inline;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 325px;
+}
+
+iframe {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-49.9%);
+    height: 500px;
+    width: 284px;
+}
+
+iframe > html > body {
+    margin: 0;
+}
+
+img.apps {
+    border-radius: 99px;
+    width: 50px;
+    position: absolute;
+    left: 98%;
+    transform: translate(-95%);
+}
+
+.apps1 {
+    top: 21%;
+}
+
+.apps2{
+    top: 31.2%;
+}
+
+.apps3 {
+    top: 41.4%;
+}
+
+.apps4 {
+    top: 51.6%;
+}
+
+.apps5 {
+    top: 61.8%;
+}
+
+.apps6 {
+    top: 72%
+}
+
