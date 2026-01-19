@@ -10,19 +10,20 @@ body {
 img.iphone {
     position: relative;
     display: inline;
-    top: 5%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%);
-    width: 325px;
+    transform: translate(-50%, -50%);
+
 }
 
 iframe {
     position: absolute;
-    top: 16.5%;
-    left: 50%;
-    transform: translate(-49.9%);
-    height: 500px;
-    width: 284px;
+    top: 50.2%;
+    left: 50.1%;
+    transform: translate(-50.2%, -50.1%);
+    height: 470px;
+    width: 267px;
+    overflow: hidden;
 }
 
 iframe > html > body {
@@ -35,6 +36,14 @@ img.apps {
     position: absolute;
     left: 98%;
     transform: translate(-95%);
+}
+
+img.apps:hover {
+    box-shadow: 4px 0 15px 1px rgb(0, 0, 0);
+    left: 97%;
+    border: 3px solid rgb(0, 0, 255);
+    transition: 1.5s all;
+    border: 1px solid white;
 }
 
 .apps1 {
