@@ -9,7 +9,7 @@ iframe::-webkit-scrollbar {
 }
 
 img {
-    width: 267px;
+    width: 100vw;
 }
 
 a {
